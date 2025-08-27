@@ -76,7 +76,6 @@ caching-proxy --port <number> --origin <url> --tui
 - 📊 Live cache statistics
 - 🎨 Beautiful color-coded interface
 - ⌨️ Interactive keyboard controls
-- 📱 Responsive design
 
 **TUI Controls:**
 
@@ -390,12 +389,3 @@ Press 'q' to quit
 | `./example.sh`         | Run automated testing     |
 | `./demo-tui.sh`        | Demo TUI functionality    |
 | `caching-proxy --help` | Show CLI help             |
-
-## Support
-
-For issues and questions:
-
-1. Check the troubleshooting section above
-2. Review the test examples
-3. Check the console logs for debugging information
-4. Open an issue in the repository
