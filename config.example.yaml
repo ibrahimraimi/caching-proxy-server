@@ -1,0 +1,41 @@
+# Example configuration file for caching proxy server
+# This file shows the structure for future configuration enhancements
+
+server:
+  port: 3000
+  host: "0.0.0.0"
+  read_timeout: "30s"
+  write_timeout: "30s"
+
+origin:
+  url: "http://dummyjson.com"
+  timeout: "10s"
+  max_retries: 3
+
+cache:
+  ttl: "5m"
+  max_size: 1000
+  cleanup_interval: "1m"
+
+  # Future: Redis configuration
+  # redis:
+  #   host: "localhost"
+  #   port: 6379
+  #   password: ""
+  #   db: 0
+
+logging:
+  level: "info"
+  format: "json"
+  file: "caching-proxy.log"
+# Future: Rate limiting
+# rate_limit:
+#   enabled: true
+#   requests_per_minute: 1000
+#   burst: 100
+
+# Future: Health checks
+# health_check:
+#   enabled: true
+#   interval: "30s"
+#   timeout: "5s"
