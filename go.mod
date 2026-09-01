@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/charmbracelet/bubbletea v0.27.1
-	github.com/charmbracelet/lipgloss v0.13.0
+	github.com/charmbracelet/lipgloss/v2 v2.0.6
 	github.com/spf13/cobra v1.8.0
 )
 
